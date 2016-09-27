@@ -5,3 +5,24 @@ body {
 * {
   body-sizing: border-box;
 }
+
+.navbar {
+  background: #bbdefb;
+  color: white;
+  overflow: auto;
+}
+
+.navbar a {
+  color:white;
+  text-decoration: none;
+}
+
+.navbar__left {
+  float: left;
+  margin: 1rem;
+}
+
+.navbar__right {
+  float: right;
+  margin: 1rem;
+}

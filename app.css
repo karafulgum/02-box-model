@@ -13,19 +13,17 @@ body {
   overflow: auto;
 }
 
-.navbar a {
-  color:white;
-  text-decoration: none;
-}
-
 .navbar__left {
   float: left;
-  margin: 0rem 1rem;
+  margin: 0rem 0.5rem;
+  padding: 0.5rem 6rem;
 }
 
-.navbar__right {
+.navbar__right, .navbar a {
   float: right;
-  margin: 0rem 1rem;
+  margin: 0.5rem;
+  color:white;
+  text-decoration: none;
 }
 
 .profile {

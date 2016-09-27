@@ -7,6 +7,7 @@ body {
 }
 
 .navbar {
+  font-family: serif;
   background: #bbdefb;
   color: white;
   overflow: auto;
@@ -19,10 +20,10 @@ body {
 
 .navbar__left {
   float: left;
-  margin: 1rem;
+  margin: 0rem 1rem;
 }
 
 .navbar__right {
   float: right;
-  margin: 1rem;
+  margin: 0rem 1rem;
 }

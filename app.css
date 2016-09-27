@@ -27,3 +27,11 @@ body {
   float: right;
   margin: 0rem 1rem;
 }
+
+.profile {
+  display: inline;
+}
+
+.image {
+  border-radius: 25%
+}

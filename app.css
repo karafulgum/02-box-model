@@ -1,3 +1,7 @@
 body {
-  background: pink;
+  margin: 0px;
+}
+
+* {
+  body-sizing: border-box;
 }

@@ -26,23 +26,53 @@ body {
   text-decoration: none;
 }
 
+.content {
+  margin: 2rem 10rem 20rem 10rem;
+}
+
 .column-1 {
   display: inline-block;
   width: 32.2%;
+  padding: 0 0.6rem 1rem 0;
 }
 
 .column-2 {
   display: inline-block;
   width: 32.2%;
+  padding: 0 0.6rem 1rem 0;
 }
 
 .column-3 {
   display: inline-block;
   width: 32.2%;
+  padding: 0 0 1rem 0;
 }
 
 .profile {
   border: 1px solid #e0e0e0;
+}
+
+.name {
+  font-family: sans-serif;
+}
+
+.username {
+  font-family: sans-serif;
+}
+
+.repo-list {
+  border: 1px solid #e0e0e0;
+}
+
+.repo-list__name {
+  float: left;
+  font-family: sans-serif;
+}
+
+.repo-list__language {
+  float: right;
+  border-top: 1px solid #e0e0e0;
+  font-family: sans-serif;
 }
 
 .image {
@@ -51,10 +81,7 @@ body {
   border-radius: 25%
 }
 
-.repo-list {
-  border: 1px solid #e0e0e0;
-}
-
-.repo-list__language {
-  border-top: 1px solid #e0e0e0;
+.html-dot h4 {
+  color: #ff3d00;
+  border-radius: 50%;
 }

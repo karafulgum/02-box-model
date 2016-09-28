@@ -26,11 +26,28 @@ body {
   text-decoration: none;
 }
 
+.column-1 {
+  display: inline-block;
+  width: 32.2%;
+}
+
+.column-2 {
+  display: inline-block;
+  width: 32.2%;
+}
+
+.column-3 {
+  display: inline-block;
+  width: 32.2%;
+}
+
 .profile {
   border: 1px solid #e0e0e0;
 }
 
 .image {
+  float: left;
+  padding: 0.5rem;
   border-radius: 25%
 }
 

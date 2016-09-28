@@ -8,7 +8,7 @@ body {
 
 .navbar {
   font-family: serif;
-  background: #26c6da;
+  background: #4dd0e1;
   color: white;
   overflow: auto;
 }
@@ -19,44 +19,47 @@ body {
   padding: 0.5rem 6rem;
 }
 
-.navbar__right, .navbar a {
-  float: right;
-  margin: 0.5rem;
-  color:white;
+.navbar__item a {
+  color: white;
   text-decoration: none;
 }
 
+.navbar__item {
+  float: right;
+  margin: 0 0.5rem;
+  display: inline;
+}
+
 .content {
-  margin: 2rem 10rem 20rem 10rem;
+  display: block;
+  width: 80%;
+  height: 100vh;
+  overflow: auto;
 }
 
-.column-1 {
-  display: inline-block;
-  width: 32.2%;
-  padding: 0 0.6rem 1rem 0;
-}
-
-.column-2 {
-  display: inline-block;
-  width: 32.2%;
-  padding: 0 0.6rem 1rem 0;
-}
-
-.column-3 {
-  display: inline-block;
-  width: 32.2%;
-  padding: 0 0 1rem 0;
+.grid {
+  /*margin: -1rem;*/
+  overflow: auto;
 }
 
 .info-card {
+  display: block;
+  float:left;
+  width: calc(100% / 4 - 1rem - 1rem);
+  margin: 1rem;
+  padding: 1rem;
   border: 1px solid #e0e0e0;
   border-radius: 0.2rem;
+}
+
+.profile {
   overflow: auto;
 }
 
 .image {
+  max-width: 100%;
   float: left;
-  padding: 0.5rem;
+  padding-right: 0.5rem;
   border-radius: 25%
 }
 
@@ -80,18 +83,20 @@ body {
 
 .repo-list__name {
   float: left;
+  margin-left: 0.5rem;
   font-family: Arial;
 }
 
 .repo-list__language {
   float: right;
+  margin-right: 0.5rem;
   font-family: Arial;
 }
 
 .html-dot {
   background-color: #ff3d00;
-  color:#ff3d00;
+  color: #ff3d00;
   height: 10rem;
   width: 10rem;
-  border-radius:50%;
+  border-radius: 50%;
 }

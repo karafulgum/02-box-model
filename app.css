@@ -48,20 +48,24 @@ body {
   padding: 0 0 1rem 0;
 }
 
-.profile {
+.info-card {
   border: 1px solid #e0e0e0;
+  border-radius: 1rem;
+  overflow: auto;
+}
+
+.image {
+  padding: 0.5rem;
+  border-radius: 25%
 }
 
 .name {
+  float: left;
   font-family: sans-serif;
 }
 
 .username {
   font-family: sans-serif;
-}
-
-.repo-list {
-  border: 1px solid #e0e0e0;
 }
 
 .repo-list__name {
@@ -75,13 +79,10 @@ body {
   font-family: sans-serif;
 }
 
-.image {
-  float: left;
-  padding: 0.5rem;
-  border-radius: 25%
-}
-
-.html-dot h4 {
-  color: #ff3d00;
-  border-radius: 50%;
+.html-dot {
+  background-color: #ff3d00;
+  color:#ff3d00;
+  height: 10rem;
+  width: 10rem;
+  border-radius:50%;
 }

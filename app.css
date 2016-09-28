@@ -8,7 +8,7 @@ body {
 
 .navbar {
   font-family: serif;
-  background: #bbdefb;
+  background: #26c6da;
   color: white;
   overflow: auto;
 }
@@ -27,9 +27,17 @@ body {
 }
 
 .profile {
-  display: inline;
+  border: 1px solid #e0e0e0;
 }
 
 .image {
   border-radius: 25%
+}
+
+.repo-list {
+  border: 1px solid #e0e0e0;
+}
+
+.repo-list__language {
+  border-top: 1px solid #e0e0e0;
 }

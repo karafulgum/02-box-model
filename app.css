@@ -1,27 +1,31 @@
 body {
   margin: 0px;
+  font-family: Arial;
 }
 
 * {
-  body-sizing: border-box;
+  box-sizing: border-box;
+
+  padding: 1rem;
+  border: 0.5rem black solid;
+  margin: 0.5rem;
 }
 
 .navbar {
-  font-family: serif;
+  font-family: Arial;
   background: #4dd0e1;
   color: white;
   overflow: auto;
 }
 
-.navbar__left {
-  float: left;
+.page-title {
+  /*float: left;
   margin: 0rem 0.5rem;
-  padding: 0.5rem 6rem;
+  padding: 0.5rem 6rem;*/
 }
 
-.navbar__right {
+.navbar__links {
   float: right;
-  padding: 0 6rem;
 }
 
 .navbar__item a {
@@ -30,7 +34,7 @@ body {
 }
 
 .navbar__item {
-  float: right;
+  padding: 0 6rem;
   margin: 0 0.5rem;
   display: inline;
 }
@@ -51,9 +55,9 @@ body {
 .info-card {
   display: block;
   float:left;
-  width: calc(100% / 4 - 1rem - 1rem);
-  margin: 1rem;
-  padding: 1rem;
+  width: calc(100% / 3 - 1rem - 1rem);
+  max-width: auto;
+  margin: auto;
   border: 1px solid #e0e0e0;
   border-radius: 0.2rem;
 }
@@ -63,10 +67,8 @@ body {
 }
 
 .image {
-  max-width: 100%;
-  height: 4rem;
-  width: 4rem;
-  float: left;
+  overflow: none;
+  max-width: 25%;
   padding-right: 0.5rem;
   border-radius: 25%
 }
@@ -81,7 +83,6 @@ body {
 }
 
 .username {
-  font-family: Arial;
   color: #9e9e9e;
 }
 

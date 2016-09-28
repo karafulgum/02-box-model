@@ -32,13 +32,14 @@ body {
 
 .content {
   display: block;
-  width: 80%;
+  width: 100%;
   height: 100vh;
   overflow: auto;
 }
 
 .grid {
-  /*margin: -1rem;*/
+  margin: auto;
+  margin-left: 10rem;
   overflow: auto;
 }
 
@@ -58,6 +59,8 @@ body {
 
 .image {
   max-width: 100%;
+  height: 4rem;
+  width: 4rem;
   float: left;
   padding-right: 0.5rem;
   border-radius: 25%

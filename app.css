@@ -82,9 +82,9 @@ img {
 }
 
 .name {
-  font-family: Arial;
   font-size: 1.5rem;
-  margin: 1rem;
+  margin: 0;
+  padding-top: 0.5rem;
 }
 
 .username {
@@ -101,30 +101,27 @@ img {
 }
 
 .repo-list__name {
-  width: 30%;
+  width: 50%;
   margin-left: 0.5rem;
-  font-family: Arial;
 }
 
-.right-side {
-  width: 11%;
+.language {
+  width: 20%;
+  text-align: right;
   float: right;
-  position: relative;
-  bottom: 3.99rem;
+  padding-right: 0.2rem;
+  margin: 1rem 0;
 }
 
-.repo-list__language {
-  margin-right: 0.5rem;
-  font-family: Arial;
+.repo-list__name, .language {
+  display: inline-block;
 }
 
 .dot {
-  background: #ff3d00;
-  color: #ff3d00;
-  height: 1rem;
   border-radius: 50%;
-  width: 35%;
-  position: relative;
-  top: 2rem;
-  right: 1.5rem;
+  background: #ff3d00;
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  vertical-align: center;
 }

@@ -66,10 +66,6 @@ img {
   border-radius: 0.2rem;
 }
 
-.profile {
-  overflow: auto;
-}
-
 .image {
   float: left;
   max-width: 25%;
